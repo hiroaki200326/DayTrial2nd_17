@@ -1,5 +1,6 @@
 $blue1:#3F51B5;
 $blue2:#7385E9;
+$blue3:rgba(63, 81, 181, 0.479);
 
 *{
   box-sizing: border-box;
@@ -147,6 +148,50 @@ $heading9_borderWidth:2px;
   }
 }
 .div11{
+  display: block;
+  margin-bottom: 52px;
+}
+
+.heading12{
+  position: relative;
+  padding-left: 30px;
+  &:before {
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    content: "\f00c";
+    font-size: 15px;
+    left: 0;
+    top: 0;
+    color: $blue1;
+  }
+}
+
+.heading13{
+  position: relative;
+  display: inline;
+  &:after {
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    content: "\f002";
+    font-size: 22px;
+    right:-28px;
+    bottom:18px;
+    color: $blue1;
+  }
+}
+.div13{
+  display: block;
+  margin-bottom: 52px;
+}
+
+.heading16{
+  display: inline;
+  background: -webkit-repeating-linear-gradient(-45deg, $blue3, $blue3 10px,$blue2 0px, $blue2 20px);
+  background: repeating-linear-gradient(-45deg, $blue3, $blue3 10px,$blue2 0px, $blue2 20px);
+  padding: 5px 9px 5px 10px;
+}
+
+.div16{
   display: block;
   margin-bottom: 52px;
 }

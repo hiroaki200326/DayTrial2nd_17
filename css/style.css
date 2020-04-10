@@ -150,3 +150,50 @@ h2 {
   display: block;
   margin-bottom: 52px;
 }
+
+.heading12 {
+  position: relative;
+  padding-left: 30px;
+}
+
+.heading12:before {
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+  content: "\f00c";
+  font-size: 15px;
+  left: 0;
+  top: 0;
+  color: #3F51B5;
+}
+
+.heading13 {
+  position: relative;
+  display: inline;
+}
+
+.heading13:after {
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+  content: "\f002";
+  font-size: 22px;
+  right: -28px;
+  bottom: 18px;
+  color: #3F51B5;
+}
+
+.div13 {
+  display: block;
+  margin-bottom: 52px;
+}
+
+.heading16 {
+  display: inline;
+  background: -webkit-repeating-linear-gradient(-45deg, rgba(63, 81, 181, 0.479), rgba(63, 81, 181, 0.479) 10px, #7385E9 0px, #7385E9 20px);
+  background: repeating-linear-gradient(-45deg, rgba(63, 81, 181, 0.479), rgba(63, 81, 181, 0.479) 10px, #7385E9 0px, #7385E9 20px);
+  padding: 5px 9px 5px 10px;
+}
+
+.div16 {
+  display: block;
+  margin-bottom: 52px;
+}
