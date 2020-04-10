@@ -197,3 +197,46 @@ h2 {
   display: block;
   margin-bottom: 52px;
 }
+
+.btn {
+  display: block;
+  padding: 15px 93px 14px 16px;
+  margin: 0 0 30px 260px;
+  background-image: none;
+  background-color: #3F51B5;
+  color: #fff;
+  font-family: Yu Gothic, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+.btn_custom2 {
+  padding-right: 87px;
+}
+
+.btn_custom2:after {
+  position: relative;
+  content: "\f0da";
+  font-family: 'Font Awesome 5 Free';
+  font-size: 16px;
+  color: #fff;
+  right: -67px;
+}
+
+.btn_custom3 {
+  padding-right: 87px;
+}
+
+.btn_custom3:after {
+  position: relative;
+  content: "\f0da";
+  font-family: 'Font Awesome 5 Free';
+  font-size: 16px;
+  color: #fff;
+  right: -13px;
+}
